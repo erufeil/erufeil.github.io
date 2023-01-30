@@ -1,0 +1,80 @@
+/* definicion de body */
+body {
+font-family: 'Kalam', cursive;
+color: MidnightBlue;
+font-size: 1rem;
+margin: 0;
+padding: 0;
+}
+
+.izquierda {
+    background: url(img1.jpg) left top, url(img2.jpg) left bottom;
+    background-repeat: no-repeat;
+    width: 33%;
+    height: 1706px;
+}
+
+.derecha {
+    padding: 10px;
+    height: 100vh;
+    width: 67%;
+    height: 100vh;
+}
+
+#pantalla-dividida {
+    display: flex;
+}
+
+
+h2 {
+    font-family: 'Permanent Marker', cursive;
+    text-shadow: 4px 3px 3px gray;
+    color: MidnightBlue;
+    font-size: 2rem;
+
+    border-style: solid;
+    border-color: rgb(25, 25, 112);/* MidnightBlue*/
+    border-radius: 2rem;
+    border-width: 0.4rem;
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    border-shadow: 4px 3px 3px gray;
+}
+
+ul {
+    list-style-image: url('list1.png');
+   }
+
+li {
+font-family: 'Kalam', cursive;
+color: MidnightBlue;
+font-size: 1.5rem;
+}
+
+/*
+MidnightBlue 	#191970 	rgb(25, 25, 112)
+    border: 5px blue dotted
+
+*/
+
+
+
+
+a:link{
+    color: BlueViolet; /* BlueViolet #8A2BE2 rgb(138, 43, 226)*/
+    }
+a:visited{
+    color: MidnightBlue; /* MidnightBlue  rgb(25, 25, 112) */
+    }
+a:hover{
+    background-color: BlueViolet; /* MediumOrchid #BA55D3 rgb(186, 85, 211) */
+    color: rgb(255, 255, 255);
+    }
+a:active{
+    color: Lime; /*  */
+    }
+
+
+
+
+ 	
